@@ -1,0 +1,39 @@
+<resources>
+    <!-- The name of the app -->
+    <string name="app_name">QuizApp</string>
+
+    <!-- Intro text -->
+    <string name="quiz_name">Dog Breed Quiz</string>
+    <string name="instructions">Instructions</string>
+    <string name="instructions_text">For each image, choose or write-in the correct breed name. Once you have chosen your answers, click the submit button at the bottom of the page to see how well you did.</string>
+
+    <!-- Question headers -->
+    <string name="question1">Question 1</string>
+    <string name="question2">Question 2</string>
+    <string name="question3">Question 3</string>
+    <string name="question4">Question 4</string>
+
+    <!-- Button text -->
+    <string name="submit">Submit</string>
+
+    <!-- Possible answers -->
+    <string name="dog_breed">Dog breed?</string>
+    <string name="beagle">Beagle</string>
+    <string name="basset_hound">Basset Hound</string>
+    <string name="silky_terrier">Silky Terrier</string>
+    <string name="mastiff">Mastiff</string>
+    <string name="whippet">Whippet</string>
+    <string name="greyhound">Greyhound</string>
+    <string name="husky">Siberian Husky</string>
+    <string name="poodle">Poodle</string>
+    <string name="corgi">Pembroke Welsh Corgi</string>
+    <string name="german_shepherd">German Shepherd Dog</string>
+    <string name="labrador_retriever">Labrador Retriever</string>
+    <string name="cattle_dog">Australian Cattle Dog</string>
+
+    <!-- Text for toasts -->
+    <string name="congrats">You got all of them correct. Nice job!</string>
+    <string name="incorrect1">Try again, you have</string>
+    <string name="incorrect2">incorrect answer.</string>
+    <string name="incorrect3">incorrect answers.</string>
+</resources>

@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    tools:context="com.example.android.quizapp.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- Introduction content -->
+
+        <TextView
+            style="@style/PrimaryHeader"
+            android:text="@string/quiz_name" />
+
+        <TextView
+            style="@style/SecondaryHeader"
+            android:text="@string/instructions" />
+
+        <TextView
+            style="@style/MultiLineText"
+            android:text="@string/instructions_text" />
+
+        <!-- Question 1 content -->
+
+        <TextView
+            style="@style/SecondaryHeader"
+            android:text="@string/question1" />
+
+        <ImageView
+            style="@style/ImageView"
+            android:contentDescription="@string/question1"
+            android:src="@drawable/beagle" />
+
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center">
+
+            <RadioButton
+                android:id="@+id/basset_hound_radio_button"
+                style="@style/RadioButton"
+                android:text="@string/basset_hound" />
+
+            <RadioButton
+                android:id="@+id/beagle_radio_button"
+                style="@style/RadioButton"
+                android:text="@string/beagle" />
+
+            <RadioButton
+                android:id="@+id/mastiff_radio_button"
+                style="@style/RadioButton"
+                android:text="@string/mastiff" />
+
+            <RadioButton
+                android:id="@+id/silky_terrier_radio_button"
+                style="@style/RadioButton"
+                android:text="@string/silky_terrier" />
+
+        </RadioGroup>
+
+        <!-- Question 2 content -->
+
+        <TextView
+            style="@style/SecondaryHeader"
+            android:text="@string/question2" />
+
+        <ImageView
+            style="@style/ImageView"
+            android:contentDescription="@string/question2"
+            android:src="@drawable/whippet" />
+
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center">
+
+            <RadioButton
+                android:id="@+id/poodle_radio_button"
+                style="@style/RadioButton"
+                android:text="@string/poodle" />
+
+            <RadioButton
+                android:id="@+id/greyhound_radio_button"
+                style="@style/RadioButton"
+                android:text="@string/greyhound" />
+
+            <RadioButton
+                android:id="@+id/whippet_radio_button"
+                style="@style/RadioButton"
+                android:text="@string/whippet" />
+
+            <RadioButton
+                android:id="@+id/husky_radio_button"
+                style="@style/RadioButton"
+                android:text="@string/husky" />
+
+        </RadioGroup>
+
+        <!-- Question 3 content -->
+
+        <TextView
+            style="@style/SecondaryHeader"
+            android:text="@string/question3" />
+
+        <ImageView
+            style="@style/ImageView"
+            android:contentDescription="@string/question3"
+            android:src="@drawable/corgi_german_shepherd" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="vertical">
+
+            <CheckBox
+                android:id="@+id/german_shepherd_checkbox"
+                style="@style/CheckBox"
+                android:text="@string/german_shepherd" />
+
+            <CheckBox
+                android:id="@+id/cattle_dog_checkbox"
+                style="@style/CheckBox"
+                android:text="@string/cattle_dog" />
+
+            <CheckBox
+                android:id="@+id/corgi_checkbox"
+                style="@style/CheckBox"
+                android:text="@string/corgi" />
+
+            <CheckBox
+                android:id="@+id/labrador_retriever_checkbox"
+                style="@style/CheckBox"
+                android:text="@string/labrador_retriever" />
+
+        </LinearLayout>
+
+        <!-- Question 4 content -->
+
+        <TextView
+            style="@style/SecondaryHeader"
+            android:text="@string/question4" />
+
+        <ImageView
+            style="@style/ImageView"
+            android:contentDescription="@string/question4"
+            android:src="@drawable/pomeranian" />
+
+        <EditText
+            android:id="@+id/pomeranian_edit_text"
+            style="@style/EditText"
+            android:hint="@string/dog_breed" />
+
+        <!-- End content -->
+
+        <Button
+            style="@style/Button"
+            android:onClick="submitAnswers"
+            android:text="@string/submit" />
+
+
+    </LinearLayout>
+
+</ScrollView>
